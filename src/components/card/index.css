@@ -1,0 +1,45 @@
+.Card {
+  border: 1px solid rgb(85, 85, 85);
+  height: 88px;
+  width: 62px;
+  margin-left: -30px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: top 0.2s ease-in-out, left 0.2s ease-in-out;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.Card span {
+  margin-left: 3px;
+  color: #000;
+}
+
+.Card .red {
+  color: red;
+}
+
+.Card:first-child {
+  margin-left: 0;
+}
+
+.Card.closed {
+  background: repeating-linear-gradient(
+    -55deg,
+    rgb(153, 85, 85),
+    rgb(99, 15, 15) 5px,
+    rgb(82, 10, 10) 5px,
+    rgb(209, 43, 43) 10px
+  );
+}
+
+.Card.isAnimated {
+  top: -140px;
+  left: 20px;
+}
+
+.isDealer .Card.isAnimated {
+  top: 140px;
+  left: 20px;
+}

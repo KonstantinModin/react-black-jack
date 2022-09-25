@@ -1,0 +1,5 @@
+.UserCards {
+  display: flex;
+  padding: 10px;
+  min-height: 90px;
+}

@@ -1,0 +1,100 @@
+.Controls {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Controls > button,
+.Controls .Controls-column button {
+  height: 3.5rem;
+  flex: 1;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.Controls > button:first-child {
+  margin-left: 5px;
+}
+
+.Controls .Controls-columnWrapper {
+  display: flex;
+  margin-right: 5px;
+}
+.Controls .Controls-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.Controls .Controls-column button {
+  margin: 0 3px;
+  width: 55px;
+  font-size: 1.2rem;
+}
+
+.Controls button.red {
+  background-color: rgb(219, 130, 160);
+}
+.Controls button.red:disabled {
+  background-color: rgb(219, 163, 182);
+}
+
+.Controls button.green {
+  background-color: rgb(198, 255, 198);
+}
+.Controls button.green:disabled {
+  background-color: rgb(228, 255, 228);
+}
+
+.Controls button.blue {
+  background-color: paleturquoise;
+}
+
+.Controls .Controls-gameLost {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Controls .Controls-gameLost p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.Controls .Controls-gameLost div {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 20px);
+  padding: 10px 15px;
+}
+
+.Controls .Controls-gameLost input {
+  font-size: 1rem;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.Controls .Controls-gameLost input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.Controls .Controls-gameLost img {
+  margin-top: 10px;
+  width: 50vw;
+}
+
+.Controls .Controls-gameLost button {
+  margin-top: 20px;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #0a58ca;
+  font-size: 1rem;
+  color: #fff;
+}
