@@ -1,5 +1,6 @@
 {
   "name": "black-jack",
+  "homepage": "https://konstantinmodin.github.io/react-black-jack",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
