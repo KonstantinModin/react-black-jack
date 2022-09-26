@@ -14,7 +14,7 @@ Simple Black Jack implementation written with React, tests for checking hand poi
 
 ## This project on web
 
-https://todo
+https://konstantinmodin.github.io/react-black-jack/
 
 ## License
 
