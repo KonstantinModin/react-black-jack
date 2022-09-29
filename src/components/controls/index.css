@@ -57,6 +57,7 @@
   text-align: center;
   align-items: center;
   width: 100%;
+  margin-top: -460px;
 }
 
 .Controls .Controls-gameLost p {
