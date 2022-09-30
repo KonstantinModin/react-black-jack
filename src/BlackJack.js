@@ -42,8 +42,11 @@ const BlackJack = () => {
     setCurrentBet(0);
     const userPoints = countHandPoints(userCards);
 
-    if (dealerPoints <= 21 && dealerPoints >= userPoints) {
+    if (dealerPoints <= 21 && dealerPoints > userPoints) {
       setRoundState(RoundState.Lost);
+    } else if (dealerPoints === userPoints) {
+      setRoundState(RoundState.Draw);
+      setUserScore(userScore + currentBet);
     } else {
       setRoundState(RoundState.Win);
       setUserScore(userScore + currentBet * 2);

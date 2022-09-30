@@ -47,5 +47,6 @@ export const RoundState = {
   Active: "Active",
   Lost: "Lost",
   Win: "Win",
+  Draw: "Draw",
   Unset: "Unset",
 };
